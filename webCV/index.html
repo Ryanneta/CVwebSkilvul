@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <!-- =========== CSS =========== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- =========== CDN FONT AWESOME =========== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    ></link>
+
+    <title>Web CV Riny Anggraeni</title>
+  </head>
+
+
+  <body>
+    <div id="container">
+      <!-- =========== PROFILE SIDE BAR =========== -->
+      <div id="profile">
+        <div id="image">
+          <img
+            id="profile-photo"
+            src="https://i.ibb.co/k2YCkXN/pas-poto.png"
+            alt="Profile-Image"
+          />
+          <a href="#"><i class="fas fa-pen stroke-transparent"></i></a>
+        </div>
+        <p id="name">
+          Riny Anggraeni<br /><span id="email"
+            >rinyanggraeni8@gmail.com</span
+          >
+        </p>
+        <p id="designation">
+          Mahasiswa<br /><span id="college"
+            >Universitas Sultan Ageng Tirtayasa</span
+          >
+        </p>
+        <div id="social-links">
+          <!-- contoh nyambungin ke link medsosnya -->
+          <!-- <a href=""><i class="fab fa-facebook-f stroke-transparent"></i></a> -->
+          
+          <a href="https://www.instagram.com/ryanneta_/" target="_blank"><i class="fab fa-instagram stroke-transparent"></i></a>
+          <a href="https://www.linkedin.com/in/riny-anggraeni-76142b230/" target="_blank"><i class="fab fa-linkedin-in stroke-transparent"></i></a>
+          <a href="https://github.com/Ryanneta" target="_blank"><i class="fab fa-github stroke-transparent"></i></a>
+        </div>
+
+        <!-- =========== ABOUT =========== -->
+        <hr width="100%" />
+        <div id="about">
+          <p style="display: inline">About</p>
+        </div>
+        <p id="education">
+          Jurusan<br /><strong
+            >Pendidikan Matematika</strong
+          >
+        </p>
+        <p id="more-about">
+          Lebih Lanjut Tentang Saya<br /><span
+            >Mencoba sefrekuensi dengan diri sendiri</span
+          >
+        </p>
+        <p id="telephone">Nomor Handphone<br /><strong>089615210614</strong></p>
+      </div>
+
+      <!-- =========== CARD =========== -->
+      <div id="info-cards"> 
+
+        <!-- =========== CARD Riwayat Pendidikan =========== -->
+        <div class="card" >
+          <p>
+            <i class="fas fa-graduation-cap stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Riwayat Pendidikan
+          </p>
+          <ul>
+            <li>
+              <p class="tags">
+                SMA Negeri 1 Cikande<br /><span
+                  >pada tahun <span>2018 - 2021</span></span
+                >
+              </p>
+              <p class="tags">
+                Universitas Sultan Ageng Tirtayasa<br /><span
+                  >pada tahun <span>2021 - sekarang</span></span
+                >
+              </p>
+            </li>
+          </ul>
+          <a href="#" onclick="addRiwayatPendidikan(event)">+ Add data</a>
+        </div>
+
+        <!-- =========== CARD Pengalaman =========== -->
+        <div class="card" >
+            <p>
+              <i class="fas fa-history stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Pengalaman
+            </p>
+            <ul>
+              <li>
+                <p class="tags">
+                  Volunteer Collegawan<br /><span
+                    >divisi desain grafis <span>2021</span></span
+                  >
+                </p>
+              </li>
+            </ul>
+            <a href="#" onclick="addPengalaman(event)">+ Add data</a>
+          </div>
+
+        <!-- =========== CARD EDUCATION ===========
+      <div class="card" >
+          <p>
+            <i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Work
+            Experience
+          </p>
+          <ul>
+            <li>
+              <p class="tags">
+                Tempat kerja<br /><span
+                  >Job Desc <span>lama waktu - now</span></span
+                >
+              </p>
+            </li>
+          </ul>
+          <a href="#" >+ Add work experience, including contracts and internships</a>
+        </div> -->
+
+    <!-- =========== SCRIPT JS =========== -->
+    <script src="./index.js"></script>
+  </body>
+</html>
